@@ -1,6 +1,6 @@
 <?php
 
-include "\private\HelloWorld.php";
+include "TravisPHPUnitTest\private\HelloWorld.php";
 class HelloWorldTest extends PHPUnit\Framework\TestCase
 {
     /**
