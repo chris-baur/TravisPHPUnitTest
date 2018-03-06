@@ -2,7 +2,8 @@
 function loader($class)
 {
     $file = $class . '.php';
-    echo $class.'\n';
+    echo 'The class is: '.$class;
+    $file = '..\private\\'.$file;
     if (file_exists($file)) {
         require $file;
     }
