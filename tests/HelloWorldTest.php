@@ -1,5 +1,5 @@
 <?php
-include_once '../private/HelloWorld.php';
+
 class HelloWorldTest extends PHPUnit\Framework\TestCase
 {
     /**
